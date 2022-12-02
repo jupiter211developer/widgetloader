@@ -12,7 +12,7 @@
         buttonStyle.bottom = "20px";
         buttonStyle.width = "60px";
         buttonStyle.height = "60px";
-        buttonStyle.backgroundImage = "url(https://cdn0.iconfinder.com/data/icons/social-24/96/Chat-512.png)";
+        buttonStyle.backgroundImage = "url(https://cdn.jsdelivr.net/gh/ProDev0328/icon/icons8-chat-room-48.png)";
         buttonStyle.backgroundSize = 'cover';
         buttonStyle.border = 'none';
         buttonStyle.backgroundColor = 'transparent';
@@ -43,7 +43,7 @@
         widgetStyle.transition = 'all .5s';
         widgetStyle.boxSizing = "border-box";
         widgetStyle.width = "400px";
-        widgetStyle.height = "647px";
+        widgetStyle.height = "550px";
         widgetStyle.position = "fixed";
         widgetStyle.bottom = "100px";
         widgetStyle.right = "40px";
@@ -59,13 +59,12 @@
         iframeStyle.border = 0;
         iframeStyle.margin = 0;
         iframeStyle.padding = 0;
-        iframeStyle.width = "500px";
 
         widget.appendChild(iframe);
         
         // iframe.addEventListener("load", () => widgetStyle.display = "block" );
         
-        const widgetUrl = `https://thriving-clafoutis-22f6ba.netlify.app?userid=${userid}`;
+        const widgetUrl = `https://azle-widget.netlify.app?userid=${userid}`;
         
         iframe.src = widgetUrl;
 
